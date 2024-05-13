@@ -1,0 +1,1482 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16">
+    <Prefix name="" IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16/"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Prefix name="untitled-ontology-16" IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#"/>
+    <Declaration>
+        <Class IRI="#actor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#director"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#genre"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#movie"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#person"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#writer"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasActor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasDirector"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#hasWriter"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isActorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isDirectorOf"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#isWriterOf"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#age"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#country"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#gender"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#language"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#name"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#title"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BenAffleck"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BenKingsley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ChristopherWalken"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Comedy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Crime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DavidMorse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Drama"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FrankDarabont"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GusVanSant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JeffNathanson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#JohnTravolta"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LeonardoDiCaprio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#LiamNeeson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MattDamon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MichealClarkeDuncan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MinnieDriver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PulpFiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RalphFiennes"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RobinWilliams"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#RogerAvary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Romance"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SamuelL.Jackson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#StevenZaillian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TheGreenMile"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TomHanks"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#UmaThurman"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#actor"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#actor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#isActorOf"/>
+            <Class IRI="#movie"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#director"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#movie"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasActor"/>
+            <Class IRI="#actor"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#movie"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasDirector"/>
+            <Class IRI="#director"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#movie"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasGenre"/>
+            <Class IRI="#genre"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#movie"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="#hasWriter"/>
+            <Class IRI="#writer"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#writer"/>
+        <Class IRI="#person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#genre"/>
+        <Class IRI="#movie"/>
+        <Class IRI="#person"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#genre"/>
+        <NamedIndividual IRI="#Action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#writer"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#BenKingsley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#movie"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#ChristopherWalken"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#genre"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#genre"/>
+        <NamedIndividual IRI="#Crime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#DavidMorse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#genre"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#director"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#writer"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#movie"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#director"/>
+        <NamedIndividual IRI="#GusVanSant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#writer"/>
+        <NamedIndividual IRI="#JeffNathanson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#JohnTravolta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#LeonardoDiCaprio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#LiamNeeson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#MattDamon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#writer"/>
+        <NamedIndividual IRI="#MattDamon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#MichealClarkeDuncan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#MinnieDriver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#movie"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#director"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#writer"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#RalphFiennes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#RobinWilliams"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#writer"/>
+        <NamedIndividual IRI="#RogerAvary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#genre"/>
+        <NamedIndividual IRI="#Romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#SamuelL.Jackson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#movie"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#director"/>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#writer"/>
+        <NamedIndividual IRI="#StevenZaillian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#movie"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#genre"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#TomHanks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#actor"/>
+        <NamedIndividual IRI="#UmaThurman"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Action"/>
+        <NamedIndividual IRI="#Comedy"/>
+        <NamedIndividual IRI="#Crime"/>
+        <NamedIndividual IRI="#Drama"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Action"/>
+        <NamedIndividual IRI="#Romance"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Action"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Comedy"/>
+        <NamedIndividual IRI="#Romance"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Comedy"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Crime"/>
+        <NamedIndividual IRI="#Romance"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Crime"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Drama"/>
+        <NamedIndividual IRI="#Romance"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Drama"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="#Romance"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#BenKingsley"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="#ChristopherWalken"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="#LeonardoDiCaprio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="#TomHanks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWriter"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="#JeffNathanson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#ChristopherWalken"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#DavidMorse"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <NamedIndividual IRI="#MattDamon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <NamedIndividual IRI="#MinnieDriver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <NamedIndividual IRI="#RobinWilliams"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <NamedIndividual IRI="#GusVanSant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <NamedIndividual IRI="#Romance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWriter"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <NamedIndividual IRI="#MattDamon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWriter"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#GusVanSant"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <NamedIndividual IRI="#JeffNathanson"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#JohnTravolta"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#LeonardoDiCaprio"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#LiamNeeson"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#MattDamon"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <NamedIndividual IRI="#MattDamon"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#MichealClarkeDuncan"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#MinnieDriver"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <NamedIndividual IRI="#JohnTravolta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <NamedIndividual IRI="#UmaThurman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <NamedIndividual IRI="#SamuelL.Jackson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <NamedIndividual IRI="#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <NamedIndividual IRI="#Thriller"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <NamedIndividual IRI="#Crime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWriter"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <NamedIndividual IRI="#RogerAvary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWriter"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#RalphFiennes"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#RobinWilliams"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <NamedIndividual IRI="#RogerAvary"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#SamuelL.Jackson"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+        <NamedIndividual IRI="#LiamNeeson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+        <NamedIndividual IRI="#BenKingsley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+        <NamedIndividual IRI="#RalphFiennes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWriter"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+        <NamedIndividual IRI="#StevenZaillian"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <NamedIndividual IRI="#StevenZaillian"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <NamedIndividual IRI="#TomHanks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <NamedIndividual IRI="#DavidMorse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasActor"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <NamedIndividual IRI="#MichealClarkeDuncan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasDirector"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <NamedIndividual IRI="#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasGenre"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <NamedIndividual IRI="#Crime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#hasWriter"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#TomHanks"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#TomHanks"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#isActorOf"/>
+        <NamedIndividual IRI="#UmaThurman"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+        <Literal datatypeIRI="&xsd;decimal">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#BenAffleck"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Ben Affleck</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#BenKingsley"/>
+        <Literal datatypeIRI="&xsd;decimal">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#BenKingsley"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#BenKingsley"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#BenKingsley"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Ben Kingsley</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Catch Me If You Can</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Catch_Me_If_You_Can"/>
+        <Literal datatypeIRI="&xsd;integer">2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#ChristopherWalken"/>
+        <Literal datatypeIRI="&xsd;decimal">79</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#ChristopherWalken"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#ChristopherWalken"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#ChristopherWalken"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">ChristopherWalen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#DavidMorse"/>
+        <Literal datatypeIRI="&xsd;decimal">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#DavidMorse"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#DavidMorse"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#DavidMorse"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">David Morse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+        <Literal datatypeIRI="&xsd;decimal">63</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#FrankDarabont"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Frank Darabont</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Good Will Hunting</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#GoodWillHunting"/>
+        <Literal datatypeIRI="&xsd;decimal">1997</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#GusVanSant"/>
+        <Literal datatypeIRI="&xsd;decimal">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#GusVanSant"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#GusVanSant"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#GusVanSant"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Gus Van Sant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#JeffNathanson"/>
+        <Literal datatypeIRI="&xsd;decimal">62</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#JeffNathanson"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#JeffNathanson"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#JeffNathanson"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Jeff Nathanson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#JohnTravolta"/>
+        <Literal datatypeIRI="&xsd;decimal">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#JohnTravolta"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#JohnTravolta"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#JohnTravolta"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">John Travolta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#LeonardoDiCaprio"/>
+        <Literal datatypeIRI="&xsd;decimal">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#LeonardoDiCaprio"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#LeonardoDiCaprio"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#LeonardoDiCaprio"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Leonardo DiCaprio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#LiamNeeson"/>
+        <Literal datatypeIRI="&xsd;decimal">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#LiamNeeson"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Ireland</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#LiamNeeson"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#LiamNeeson"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Liam Neeson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#MattDamon"/>
+        <Literal datatypeIRI="&xsd;decimal">52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#MattDamon"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#MattDamon"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MattDamon"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Matt Damon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#MichealClarkeDuncan"/>
+        <Literal datatypeIRI="&xsd;decimal">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#MichealClarkeDuncan"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#MichealClarkeDuncan"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MichealClarkeDuncan"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Micheal Clarke Duncan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#MinnieDriver"/>
+        <Literal datatypeIRI="&xsd;decimal">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#MinnieDriver"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#MinnieDriver"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#MinnieDriver"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Minnie Driver</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Pulp Fiction</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#PulpFiction"/>
+        <Literal datatypeIRI="&xsd;decimal">1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+        <Literal datatypeIRI="&xsd;decimal">59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#QuentinTarantino"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Quentin Tarantino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#RalphFiennes"/>
+        <Literal datatypeIRI="&xsd;decimal">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#RalphFiennes"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#RalphFiennes"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#RalphFiennes"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Ralph Fiennes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#RobinWilliams"/>
+        <Literal datatypeIRI="&xsd;decimal">63</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#RobinWilliams"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#RobinWilliams"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#RobinWilliams"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Robin Williams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#RogerAvary"/>
+        <Literal datatypeIRI="&xsd;decimal">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#RogerAvary"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#RogerAvary"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#RogerAvary"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Roger Avary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#SamuelL.Jackson"/>
+        <Literal datatypeIRI="&xsd;decimal">74</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#SamuelL.Jackson"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#SamuelL.Jackson"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#SamuelL.Jackson"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Samuel L. Jackson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Schindler&apos;s List</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#Schindler&apos;sList"/>
+        <Literal datatypeIRI="&xsd;decimal">1993</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+        <Literal datatypeIRI="&xsd;decimal">76</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#StevenSpielberg"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Steven Spielberg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#StevenZaillian"/>
+        <Literal datatypeIRI="&xsd;decimal">72</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#StevenZaillian"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#StevenZaillian"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#StevenZaillian"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Steven Zaillian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#language"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#title"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">The Green Mile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#year"/>
+        <NamedIndividual IRI="#TheGreenMile"/>
+        <Literal datatypeIRI="&xsd;decimal">1999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#TomHanks"/>
+        <Literal datatypeIRI="&xsd;decimal">66</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#TomHanks"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#TomHanks"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#TomHanks"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Tom Hanks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#age"/>
+        <NamedIndividual IRI="#UmaThurman"/>
+        <Literal datatypeIRI="&xsd;decimal">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#country"/>
+        <NamedIndividual IRI="#UmaThurman"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#gender"/>
+        <NamedIndividual IRI="#UmaThurman"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#name"/>
+        <NamedIndividual IRI="#UmaThurman"/>
+        <Literal datatypeIRI="&rdf;PlainLiteral">Uma Thurman</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasActor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasDirector"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasGenre"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#hasWriter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isActorOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasActor"/>
+        <ObjectProperty IRI="#isActorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasDirector"/>
+        <ObjectProperty IRI="#isDirectorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#hasWriter"/>
+        <ObjectProperty IRI="#isWriterOf"/>
+    </InverseObjectProperties>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasActor"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasDirector"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasGenre"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#hasWriter"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isActorOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isDirectorOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="#isWriterOf"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasActor"/>
+        <Class IRI="#movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasDirector"/>
+        <Class IRI="#movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#hasWriter"/>
+        <Class IRI="#movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isActorOf"/>
+        <Class IRI="#actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <Class IRI="#director"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <Class IRI="#writer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasActor"/>
+        <Class IRI="#actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasDirector"/>
+        <Class IRI="#director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasGenre"/>
+        <Class IRI="#genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#hasWriter"/>
+        <Class IRI="#writer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isActorOf"/>
+        <Class IRI="#movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isDirectorOf"/>
+        <Class IRI="#movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#isWriterOf"/>
+        <Class IRI="#movie"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="#hasActor"/>
+        <ObjectProperty IRI="#hasDirector"/>
+        <ObjectProperty IRI="#hasGenre"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#country"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#gender"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#language"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#title"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#year"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#age"/>
+        <Class IRI="#person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#country"/>
+        <Class IRI="#person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#gender"/>
+        <Class IRI="#person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#language"/>
+        <Class IRI="#movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#name"/>
+        <Class IRI="#person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#title"/>
+        <Class IRI="#movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#year"/>
+        <Class IRI="#movie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#gender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+

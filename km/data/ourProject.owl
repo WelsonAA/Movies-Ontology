@@ -1,0 +1,1604 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/georgewelson/ontologies/2024/4/untitled-ontology-7"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/georgewelson/ontologies/2024/4/untitled-ontology-7">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Romance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JohnTravolta"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#DavidMorse"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RalphFiennes"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#ChristopherWalken"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Comedy"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JeffNathanson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RogerAvary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Thriller"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#language"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Action"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenZaillian"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Crime"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MichealClarkeDuncan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LeonardoDiCaprio"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#title"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RobinWilliams"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#year"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GusVanSant"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#SamuelL.Jackson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LiamNeeson"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Drama"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MinnieDriver"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenKingsley"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#UmaThurman"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+            <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+            <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+            <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+            <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <ObjectMinCardinality cardinality="1">
+            <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+            <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+        </ObjectMinCardinality>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Action"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenKingsley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenKingsley"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#ChristopherWalken"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#ChristopherWalken"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Comedy"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Crime"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#DavidMorse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#DavidMorse"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Drama"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GusVanSant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GusVanSant"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JeffNathanson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JeffNathanson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JohnTravolta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JohnTravolta"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LeonardoDiCaprio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LeonardoDiCaprio"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LiamNeeson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LiamNeeson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MichealClarkeDuncan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MichealClarkeDuncan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MinnieDriver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MinnieDriver"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RalphFiennes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RalphFiennes"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RobinWilliams"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RobinWilliams"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RogerAvary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RogerAvary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Romance"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#SamuelL.Jackson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#SamuelL.Jackson"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenZaillian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenZaillian"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Thriller"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#UmaThurman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#UmaThurman"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+    </ClassAssertion>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Action"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Comedy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Crime"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Drama"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Action"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Romance"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Action"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Thriller"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Comedy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Romance"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Comedy"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Thriller"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Crime"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Romance"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Crime"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Thriller"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Drama"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Romance"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Drama"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Thriller"/>
+    </DifferentIndividuals>
+    <DifferentIndividuals>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Romance"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Thriller"/>
+    </DifferentIndividuals>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenKingsley"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#ChristopherWalken"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LeonardoDiCaprio"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JeffNathanson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#ChristopherWalken"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#DavidMorse"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MinnieDriver"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RobinWilliams"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GusVanSant"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Romance"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GusVanSant"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JeffNathanson"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JohnTravolta"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LeonardoDiCaprio"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LiamNeeson"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MichealClarkeDuncan"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MinnieDriver"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JohnTravolta"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#SamuelL.Jackson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#UmaThurman"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Comedy"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Crime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Thriller"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RogerAvary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RalphFiennes"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RobinWilliams"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RogerAvary"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#SamuelL.Jackson"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenZaillian"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#DavidMorse"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MichealClarkeDuncan"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Crime"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#UmaThurman"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenKingsley"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LiamNeeson"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RalphFiennes"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Drama"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenZaillian"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">50</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenAffleck"/>
+        <Literal>Ben Affleck</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenKingsley"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">80</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenKingsley"/>
+        <Literal>UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenKingsley"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#BenKingsley"/>
+        <Literal>Ben Kingsley</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#language"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#title"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <Literal>Catch Me If You Can</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#year"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Catch_Me_If_You_Can"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#integer">2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#ChristopherWalken"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">79</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#ChristopherWalken"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#ChristopherWalken"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#ChristopherWalken"/>
+        <Literal>ChristopherWalen</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#DavidMorse"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#DavidMorse"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#DavidMorse"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#DavidMorse"/>
+        <Literal>David Morse</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">63</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#FrankDarabont"/>
+        <Literal>Frank Darabont</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#language"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#title"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <Literal>Good Will Hunting</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#year"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GoodWillHunting"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1997</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GusVanSant"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GusVanSant"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GusVanSant"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#GusVanSant"/>
+        <Literal>Gus Van Sant</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JeffNathanson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">62</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JeffNathanson"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JeffNathanson"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JeffNathanson"/>
+        <Literal>Jeff Nathanson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JohnTravolta"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">68</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JohnTravolta"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JohnTravolta"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#JohnTravolta"/>
+        <Literal>John Travolta</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LeonardoDiCaprio"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">37</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LeonardoDiCaprio"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LeonardoDiCaprio"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LeonardoDiCaprio"/>
+        <Literal>Leonardo DiCaprio</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LiamNeeson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">70</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LiamNeeson"/>
+        <Literal>Ireland</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LiamNeeson"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#LiamNeeson"/>
+        <Literal>Liam Neeson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">52</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MattDamon"/>
+        <Literal>Matt Damon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MichealClarkeDuncan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">54</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MichealClarkeDuncan"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MichealClarkeDuncan"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MichealClarkeDuncan"/>
+        <Literal>Micheal Clarke Duncan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MinnieDriver"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">47</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MinnieDriver"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MinnieDriver"/>
+        <Literal>female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#MinnieDriver"/>
+        <Literal>Minnie Driver</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#language"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#title"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <Literal>Pulp Fiction</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#year"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#PulpFiction"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">59</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#QuentinTarantino"/>
+        <Literal>Quentin Tarantino</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RalphFiennes"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RalphFiennes"/>
+        <Literal>UK</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RalphFiennes"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RalphFiennes"/>
+        <Literal>Ralph Fiennes</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RobinWilliams"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">63</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RobinWilliams"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RobinWilliams"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RobinWilliams"/>
+        <Literal>Robin Williams</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RogerAvary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">60</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RogerAvary"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RogerAvary"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#RogerAvary"/>
+        <Literal>Roger Avary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#SamuelL.Jackson"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">74</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#SamuelL.Jackson"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#SamuelL.Jackson"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#SamuelL.Jackson"/>
+        <Literal>Samuel L. Jackson</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">76</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+        <Literal>Male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenSpielberg"/>
+        <Literal>Steven Spielberg</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenZaillian"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">72</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenZaillian"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenZaillian"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#StevenZaillian"/>
+        <Literal>Steven Zaillian</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#language"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#title"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <Literal>The Green Mile</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#year"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TheGreenMile"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1999</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">66</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+        <Literal>male</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#TomHanks"/>
+        <Literal>Tom Hanks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#UmaThurman"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">53</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#UmaThurman"/>
+        <Literal>USA</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#UmaThurman"/>
+        <Literal>female</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#UmaThurman"/>
+        <Literal>Uma Thurman</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#language"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+        <Literal>English</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#title"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+        <Literal>Schindler&apos;s List</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#year"/>
+        <NamedIndividual IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#Schindler&apos;sList"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#decimal">1993</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+    </InverseObjectProperties>
+    <SymmetricObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SymmetricObjectProperty>
+    <TransitiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </TransitiveObjectProperty>
+    <ReflexiveObjectProperty>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </ReflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+    </IrreflexiveObjectProperty>
+    <IrreflexiveObjectProperty>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+    </IrreflexiveObjectProperty>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#actor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#director"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#genre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasWriter"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#writer"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isActorOf"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isDirectorOf"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#isWriterOf"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </ObjectPropertyRange>
+    <DisjointObjectProperties>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasActor"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasDirector"/>
+        <ObjectProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#hasGenre"/>
+    </DisjointObjectProperties>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#language"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#title"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#year"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#language"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#person"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#title"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#year"/>
+        <Class IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#movie"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#age"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#country"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#gender"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#language"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#name"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#title"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="http://www.semanticweb.org/tatan/ontologies/2024/4/untitled-ontology-16#year"/>
+        <Datatype abbreviatedIRI="xsd:integer"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.26.2023-07-17T20:34:13Z) https://github.com/owlcs/owlapi -->
+
